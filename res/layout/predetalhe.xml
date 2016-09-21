@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical" >
+
+   <Button
+                    android:id="@+id/buttonVisualizarPedidos"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:textColor="#000099"
+                    android:text="Visualizar Pedidos Realizados" />
+
+    <ImageView
+        android:id="@+id/imagemProduto"
+        android:layout_width="620dp"
+        android:layout_height="380dp"
+        android:layout_marginTop="33dp"
+        android:src="@drawable/batata2" />
+
+ <Button
+        android:id="@+id/buttonDescricao"
+        android:layout_width="330dp"
+        android:layout_marginTop="80dp"
+        android:layout_height="wrap_content"
+        android:text="Batata Frita 200g - R$ 16,90"
+          android:textColor="#000099"
+        android:textStyle="bold"
+     
+        android:textSize="9pt"
+         />
+ 
+  <Button
+        android:id="@+id/buttonDetalhes"
+        android:layout_width="330dp"
+        android:layout_marginTop="120dp"
+        android:background="@drawable/belobutton3"
+        android:layout_height="300dp"
+
+        android:textColor="#E8E8E8"
+         android:gravity="top|left"  
+        android:textSize="7pt"
+         />
+    
+    <Button
+        android:id="@+id/buttonInfo"
+        android:layout_width="157dp"
+        android:layout_marginTop="380dp"
+        android:layout_height="wrap_content"
+     
+
+        
+        android:background="@drawable/belobutton2"
+        android:text="Informações"
+        android:textColor="#E8E8E8"
+         android:layout_alignParentBottom="true"
+        android:textSize="9pt"
+        android:textStyle="bold|normal" />
+    
+    
+    
+
+    <Button
+        android:id="@+id/buttonPedir"
+        android:layout_width="157dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="135dip"
+        android:background="@drawable/belobutton"
+        android:text="Pedir !"
+        android:textColor="#E8E8E8"
+        android:textSize="9pt"
+        android:textStyle="bold|normal" />
+
+    <ImageView
+        android:id="@+id/buttonEsquerda"
+        android:layout_width="60dp"
+        android:layout_height="37dp"
+           android:layout_marginTop="35dp"
+        android:layout_marginLeft="0dp"
+        android:src="@drawable/mleft" />
+
+</RelativeLayout>

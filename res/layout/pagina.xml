@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical" >
+
+                <Button
+                    android:id="@+id/buttonVisualizarPedidos"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:textColor="#000099"
+                    android:text="Visualizar Pedidos Realizados" />
+                
+                
+                <ImageView
+        android:id="@+id/buttonPropaganda"
+             android:layout_width="800dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="35dp"
+        
+         
+        android:src="@drawable/mbannerexemplo" />
+                
+             
+                
+                    <ListView
+        android:id="@android:id/list"
+        android:layout_width="fill_parent"
+        android:layout_height="330dp"
+        android:divider="#b5b5b5"
+        android:dividerHeight="1dp"
+        android:layout_marginTop="115dp"
+        android:listSelector="@drawable/list_selector" />
+                
+                
+                
+                <ImageView
+        android:id="@+id/buttonEsquerda"
+             android:layout_width="60dp"
+        android:layout_height="37dp"
+         android:layout_alignParentBottom="true"
+         android:layout_alignParentLeft="true"
+        android:src="@drawable/mleft" />
+                
+                
+                      <Button
+                    android:id="@+id/buttonMenuPrincipal"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginLeft="60dp"
+                    
+                    android:textColor="#000099"
+                    android:text="Menu Principal" />
+                      
+                      
+                      <ImageView
+        android:id="@+id/buttonDireita"
+             android:layout_width="60dp"
+        android:layout_height="37dp"
+         android:layout_alignParentBottom="true"
+         android:layout_alignParentRight="true"
+        android:src="@drawable/mright" />
+                      
+                    
+                      
+</RelativeLayout>

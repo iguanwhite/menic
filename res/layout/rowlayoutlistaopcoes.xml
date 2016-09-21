@@ -1,0 +1,36 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/lineItem"
+    android:layout_width="wrap_content"
+    android:layout_height="269dp"
+    android:background="#FFFFFF"
+    android:gravity="center_vertical" >
+
+    <TextView
+        android:id="@+id/nomeOpcao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dip"
+        android:textColor="#ff000000"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/fieldQuantidadeOpcoes"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="250dp"
+      
+        android:ems="10"
+        android:text="0"
+        
+        
+        android:inputType="number" >
+        
+        
+     
+        
+
+        <requestFocus />
+    </EditText>
+
+</RelativeLayout>

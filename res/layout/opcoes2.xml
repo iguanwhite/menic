@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/buttonVisualizarPedidos"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:text="Visualizar Pedidos Realizados"
+        android:textColor="#000099" />
+
+    <EditText
+        android:id="@+id/fieldQuantidade1"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="50dp"
+        android:visibility="invisible"
+       
+        android:inputType="number" >
+
+  
+    </EditText>
+
+    <TextView
+        android:id="@+id/labelOpcao1"
+        android:layout_width="140dp"
+        android:visibility="invisible"
+        android:layout_height="20dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="60dp"
+        android:text="     Opcao1:"
+        android:textSize="16dp" />
+    
+    
+       <EditText
+        android:id="@+id/fieldQuantidade2"
+        android:layout_width="50dp"
+        android:visibility="invisible"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="110dp"
+  
+        android:inputType="number" >
+
+       
+    </EditText>
+
+    <TextView
+        android:id="@+id/labelOpcao2"
+        android:layout_width="140dp"
+        android:layout_height="20dp"
+        android:visibility="invisible"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="120dp"
+        android:text="     Opcao2:"
+        android:textSize="16dp" />
+    
+    
+      <EditText
+        android:id="@+id/fieldQuantidade3"
+        android:layout_width="50dp"
+        android:visibility="invisible"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="170dp"
+     
+        android:inputType="number" >
+
+       
+    </EditText>
+
+    <TextView
+        android:id="@+id/labelOpcao3"
+        android:layout_width="140dp"
+        android:visibility="invisible"
+        android:layout_height="20dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="180dp"
+        android:text="     Opcao3:"
+        android:textSize="16dp" />
+    
+    
+          <EditText
+        android:id="@+id/fieldQuantidade4"
+        android:layout_width="50dp"
+        android:visibility="invisible"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="230dp"
+
+        android:inputType="number" >
+
+   
+    </EditText>
+
+    <TextView
+        android:id="@+id/labelOpcao4"
+        android:layout_width="140dp"
+        android:visibility="invisible"
+        android:layout_height="20dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="240dp"
+        android:text="     Opcao4:"
+        android:textSize="16dp" />
+    
+    
+          <EditText
+        android:id="@+id/fieldQuantidade5"
+        android:layout_width="50dp"
+        android:visibility="invisible"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="290dp"
+
+        android:inputType="number" >
+
+ 
+    </EditText>
+
+    <TextView
+        android:id="@+id/labelOpcao5"
+        android:layout_width="140dp"
+        android:visibility="invisible" 
+        android:layout_height="20dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="300dp"
+        android:text="     Opcao5:"
+        android:textSize="16dp" />
+    
+    
+
+    <ImageView
+        android:id="@+id/buttonEsquerda"
+        android:layout_width="60dp"
+        android:layout_height="37dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/mleft" />
+
+    <Button
+        android:id="@+id/buttonVisualizarNovoPedido"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="60dp"
+        android:background="@drawable/belobutton"
+        android:text="Visualizar Novo Pedido"
+        android:textColor="#E8E8E8"
+        android:textStyle="bold|normal" />
+
+</RelativeLayout>

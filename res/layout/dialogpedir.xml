@@ -1,0 +1,64 @@
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="wrap_content" android:layout_height="wrap_content">
+     
+
+
+     
+  <TextView
+                          android:id="@+id/labelQuantidade"
+                          android:layout_width="140dp"
+                          android:layout_height="20dp"
+                          android:layout_marginLeft="40dp"
+                          android:layout_marginTop="40dp"
+                      
+                          
+                          
+                    
+                          android:text="     Quantidade:"
+                        
+                          android:textSize="16dp" />
+     
+
+
+                <EditText
+                          android:id="@+id/fieldQuantidade"
+                          android:layout_width="50dp"
+                          android:layout_height="wrap_content"
+                          android:layout_marginLeft="160dp"
+                          android:layout_marginTop="30dp"
+                     
+                  
+                          
+                          android:ems="10"
+                          android:inputType="number" >
+
+                          <requestFocus />
+                      </EditText>
+
+<Button android:id="@+id/buttonOpcoesDeEntrega"
+            
+
+       
+            android:layout_marginTop="90dip"
+            android:textSize="9pt"
+            android:layout_height="80dp"
+            android:layout_width="320dip"
+            android:text="Opções de Entrega"
+            android:textStyle="bold|normal"
+            
+            android:textColor="#E8E8E8"
+            android:background="@drawable/belobutton"/>
+
+                      <ImageView
+                          android:id="@+id/buttonEsquerda"
+                          android:layout_width="60dp"
+             
+                          android:layout_height="37dp"
+                          android:layout_alignParentLeft="true"
+                          android:layout_alignParentTop="true"
+                          android:src="@drawable/mleft" />
+     
+     
+     
+    </RelativeLayout>
